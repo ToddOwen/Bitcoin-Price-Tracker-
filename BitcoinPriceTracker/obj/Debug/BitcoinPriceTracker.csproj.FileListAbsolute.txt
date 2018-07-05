@@ -1,0 +1,13 @@
+F:\Bitcoin-Price-Tracker-\BitcoinPriceTracker\obj\Debug\BitcoinPriceTracker.csprojAssemblyReference.cache
+F:\Bitcoin-Price-Tracker-\BitcoinPriceTracker\obj\Debug\BitcoinPriceTracker.Form1.resources
+F:\Bitcoin-Price-Tracker-\BitcoinPriceTracker\obj\Debug\BitcoinPriceTracker.Properties.Resources.resources
+F:\Bitcoin-Price-Tracker-\BitcoinPriceTracker\obj\Debug\BitcoinPriceTracker.csproj.GenerateResource.cache
+F:\Bitcoin-Price-Tracker-\BitcoinPriceTracker\obj\Debug\BitcoinPriceTracker.csproj.CoreCompileInputs.cache
+F:\Bitcoin-Price-Tracker-\BitcoinPriceTracker\bin\Debug\BitcoinPriceTracker.exe.config
+F:\Bitcoin-Price-Tracker-\BitcoinPriceTracker\bin\Debug\BitcoinPriceTracker.exe
+F:\Bitcoin-Price-Tracker-\BitcoinPriceTracker\bin\Debug\BitcoinPriceTracker.pdb
+F:\Bitcoin-Price-Tracker-\BitcoinPriceTracker\bin\Debug\Newtonsoft.Json.dll
+F:\Bitcoin-Price-Tracker-\BitcoinPriceTracker\bin\Debug\Newtonsoft.Json.xml
+F:\Bitcoin-Price-Tracker-\BitcoinPriceTracker\obj\Debug\BitcoinPriceTracker.csproj.CopyComplete
+F:\Bitcoin-Price-Tracker-\BitcoinPriceTracker\obj\Debug\BitcoinPriceTracker.exe
+F:\Bitcoin-Price-Tracker-\BitcoinPriceTracker\obj\Debug\BitcoinPriceTracker.pdb

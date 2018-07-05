@@ -41,12 +41,28 @@ namespace BitcoinPriceTracker
         {
             this.Invoke((MethodInvoker)delegate { PriceText.Text = CoinPrice; });
             if (newPrice == lastPrice)
+            {
+                this.Invoke((MethodInvoker)delegate { image.Image = Properties.Resources.if_Bitcoin_272914; });
                 this.Invoke((MethodInvoker)delegate { PriceText.ForeColor = Color.DarkOrange; });
+            }
             else if (newPrice > lastPrice)
+            {
                 this.Invoke((MethodInvoker)delegate { PriceText.ForeColor = Color.Red; });
+                this.Invoke((MethodInvoker)delegate { image.Visible = true; });
+                this.Invoke((MethodInvoker)delegate { image.Image = Properties.Resources.if_Arrow_Down_20277; });
+                Console.Beep(2000, 200);
+                Console.Beep(2500, 200);
+            }
             else if (newPrice < lastPrice)
+            {
                 this.Invoke((MethodInvoker)delegate { PriceText.ForeColor = Color.Green; });
-        }
+                this.Invoke((MethodInvoker)delegate { image.Visible = true; });
+                this.Invoke((MethodInvoker)delegate { image.Image =  Properties.Resources.if_Arrow_Up_20279; });
+                Console.Beep(3000, 100);
+                Console.Beep(3500, 150);
+
+            }
+            }
 
         private void CoinDeskData(object sender, DoWorkEventArgs e)
         {
@@ -62,12 +78,37 @@ namespace BitcoinPriceTracker
                 dynamic obj = JsonConvert.DeserializeObject(json);
                 var price = Convert.ToDecimal(obj.bpi.GBP.rate.Value);
                 newPrice = price;
-                CoinPrice = string.Format("1BTC = {0:C2}", newPrice);
+                CoinPrice = string.Format("1 BTC = {0:C2}", newPrice);
                 ChangeText(lastPrice, newPrice);
                 lastPrice = newPrice;
-                Thread.Sleep(3000);
+                Thread.Sleep(300);
             }
 
+        }
+
+        private bool mouseDown;
+        private Point lastLocation;
+
+        private void Form1_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown = true;
+            lastLocation = e.Location;
+        }
+
+        private void Form1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (mouseDown)
+            {
+                this.Location = new Point(
+                    (this.Location.X - lastLocation.X) + e.X, (this.Location.Y - lastLocation.Y) + e.Y);
+
+                this.Update();
+            }
+        }
+
+        private void Form1_MouseUp(object sender, MouseEventArgs e)
+        {
+            mouseDown = false;
         }
 
 

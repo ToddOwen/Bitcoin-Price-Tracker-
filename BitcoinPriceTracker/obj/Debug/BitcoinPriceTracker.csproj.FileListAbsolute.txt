@@ -11,3 +11,16 @@ F:\Bitcoin-Price-Tracker-\BitcoinPriceTracker\bin\Debug\Newtonsoft.Json.xml
 F:\Bitcoin-Price-Tracker-\BitcoinPriceTracker\obj\Debug\BitcoinPriceTracker.csproj.CopyComplete
 F:\Bitcoin-Price-Tracker-\BitcoinPriceTracker\obj\Debug\BitcoinPriceTracker.exe
 F:\Bitcoin-Price-Tracker-\BitcoinPriceTracker\obj\Debug\BitcoinPriceTracker.pdb
+C:\Users\Admin\Documents\Bitcoin Tracker\Bitcoin-Price-Tracker-\BitcoinPriceTracker\obj\Debug\BitcoinPriceTracker.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Bitcoin Tracker\Bitcoin-Price-Tracker-\BitcoinPriceTracker\obj\Debug\BitcoinPriceTracker.Form1.resources
+C:\Users\Admin\Documents\Bitcoin Tracker\Bitcoin-Price-Tracker-\BitcoinPriceTracker\obj\Debug\BitcoinPriceTracker.Properties.Resources.resources
+C:\Users\Admin\Documents\Bitcoin Tracker\Bitcoin-Price-Tracker-\BitcoinPriceTracker\obj\Debug\BitcoinPriceTracker.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\Bitcoin Tracker\Bitcoin-Price-Tracker-\BitcoinPriceTracker\obj\Debug\BitcoinPriceTracker.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Bitcoin Tracker\Bitcoin-Price-Tracker-\BitcoinPriceTracker\obj\Debug\BitcoinPriceTracker.exe
+C:\Users\Admin\Documents\Bitcoin Tracker\Bitcoin-Price-Tracker-\BitcoinPriceTracker\obj\Debug\BitcoinPriceTracker.pdb
+C:\Users\Admin\Documents\Bitcoin Tracker\Bitcoin-Price-Tracker-\BitcoinPriceTracker\bin\Debug\BitcoinPriceTracker.exe.config
+C:\Users\Admin\Documents\Bitcoin Tracker\Bitcoin-Price-Tracker-\BitcoinPriceTracker\bin\Debug\BitcoinPriceTracker.exe
+C:\Users\Admin\Documents\Bitcoin Tracker\Bitcoin-Price-Tracker-\BitcoinPriceTracker\bin\Debug\BitcoinPriceTracker.pdb
+C:\Users\Admin\Documents\Bitcoin Tracker\Bitcoin-Price-Tracker-\BitcoinPriceTracker\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Documents\Bitcoin Tracker\Bitcoin-Price-Tracker-\BitcoinPriceTracker\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Documents\Bitcoin Tracker\Bitcoin-Price-Tracker-\BitcoinPriceTracker\obj\Debug\BitcoinPriceTracker.csproj.CopyComplete
